@@ -1,5 +1,5 @@
 Pod::Spec.new do |spec|
-  spec.name         = 'MyAppSkillz'
+  spec.name         = 'Skillz'
   spec.version      = '2025.0.50'
 
   spec.license      = { :type => 'Proprietary', :text => 'The full license is available on our website: https://www.skillz.com/legal/#dev-terms' }
@@ -8,7 +8,7 @@ Pod::Spec.new do |spec|
   spec.summary      = 'A multiplayer cash tournament framework for mobile.'
 
   spec.platform     = :ios
-  spec.source       = { :http => 'https://github.com/skillz/SkillzPod/archive/refs/tags/2025.0.50.zip', :sha1 => 'ffa31387919e89f758091499681c0e009b9fbc3b'}
+  spec.source       = { :http => 'https://github.com/skillz/SkillzPod/archive/refs/tags/2025.0.50.zip' }
 
   spec.source_files = '**/*.h'
   spec.public_header_files = "Skillz.framework/Headers/*.h"
