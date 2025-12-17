@@ -1,5 +1,5 @@
 Pod::Spec.new do |spec|
-  spec.name         = 'MySkillz'
+  spec.name         = 'MyAppSkillz'
   spec.version      = '2025.0.50'
 
   spec.license      = { :type => 'Proprietary', :text => 'The full license is available on our website: https://www.skillz.com/legal/#dev-terms' }
