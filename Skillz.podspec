@@ -9,12 +9,13 @@ Pod::Spec.new do |spec|
 
   spec.platform     = :ios
   spec.source       = { :http => 'https://github.com/skillz/SkillzPod/archive/refs/tags/2025.0.50.zip' }
+  # spec.source       = { :git => 'https://github.com/skillz/SkillzPod.git', :tag => spec.version.to_s }
 
-  spec.source_files = '**/*.h'
-  spec.public_header_files = "Skillz.framework/Headers/*.h"
+  spec.source_files = 'SkillzPod-2025.0.50/**/*.h'
+  spec.public_header_files = "SkillzPod-2025.0.50/Skillz.framework/Headers/*.h"
 
   spec.module_name = 'Skillz'
-  spec.ios.vendored_frameworks = 'Skillz.framework'
+  spec.ios.vendored_frameworks = 'SkillzPod-2025.0.50/Skillz.framework'
   spec.ios.deployment_target  = '12.0'
 
   spec.frameworks = 'CoreImage', 'CoreFoundation', 'PassKit', 'UIKit', 'JavaScriptCore', 'iAd'
